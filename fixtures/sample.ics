@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+PRODID:-//Sample//RRBC preview//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260902T180000
+DTEND;TZID=America/Los_Angeles:20260902T190000
+RRULE:FREQ=MONTHLY;BYDAY=1WE
+UID:sample-meeting@rrbc
+SUMMARY:Sample: monthly booster club meeting
+LOCATION:River Ridge High School library
+DESCRIPTION:Sample event. Open to everyone. Agenda is posted in the Documents section the week before.
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20261120T170000
+DTEND;TZID=America/Los_Angeles:20261120T210000
+UID:sample-concessions@rrbc
+SUMMARY:Sample: basketball home opener concessions
+LOCATION:River Ridge High School gym\, 350 River Ridge Dr SE\, Lacey\, WA
+DESCRIPTION:Sample event. We need 8 volunteers for two shifts. Sign up on the Volunteer page.
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+UID:sample-fundraiser@rrbc
+SUMMARY:Sample: holiday spirit wear sale
+LOCATION:Student store
+DESCRIPTION:Sample event. All proceeds go to student programs.
+END:VEVENT
+END:VCALENDAR
